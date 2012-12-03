@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Sinatra Heroku Template</title>
+	<link rel="stylesheet" href="/css/application.css" type="text/css" media="screen">
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/underscore.js"></script>
+	<script type="text/javascript" src="/js/backbone.js"></script>
+	<script type="text/javascript" src="/js/application.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			var app = new App({ el : "#tester" });
+		});
+	</script>
+</head>
+<body>
+	<%= yield %>
+</body>
+</html>
